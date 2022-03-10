@@ -1,0 +1,25 @@
+.button {
+    border: 2px solid black;
+    background-color: transparent;
+    display: inline-flex;
+    justify-content: center;
+/*     align-items: center; */
+    align-items: flex-end;
+    width: auto;
+    border-radius: 4px;
+    padding: 0.4rem 1.5rem 0.3rem 1.5rem !important;
+    transition: background-color 300ms ease-in, color 300ms ease-in;
+    font: normal normal 12px/32px 'Avenir Black';
+}
+
+.button:hover {
+    background-color: var(--base-color);
+    color: white !important;
+    border-color: rgba(200, 200, 200, 0) !important;
+}
+
+@media screen and (max-width: 500px){
+    .button {
+        /*line-height: 20px;*/
+    }
+}

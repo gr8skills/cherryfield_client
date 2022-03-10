@@ -1,0 +1,255 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+:root {
+    --base-color: #050447;
+    --fore-color: #FFFFFF;
+    --base-gray: #a1a2a3;
+    --base-text-gray: #666666;
+}
+
+@font-face {
+    font-family: 'Avenir Black';
+    src: url("../public/assets/fonts/avenir_ff/Avenir-Black-03.ttf");
+}
+
+@font-face {
+    font-family: 'Avenir BlackOblique';
+    src: url("../public/assets/fonts/avenir_ff/Avenir-BlackOblique-04.ttf");
+}
+
+@font-face {
+    font-family: 'Avenir Book';
+    src: url("../public/assets/fonts/avenir_ff/Avenir-Book-01.ttf");
+}
+
+@font-face {
+    font-family: 'Avenir BookOblique';
+    src: url("../public/assets/fonts/avenir_ff/Avenir-BookOblique-02.ttf");
+}
+
+@font-face {
+    font-family: 'Avenir Heavy';
+    src: url("../public/assets/fonts/avenir_ff/Avenir-Heavy-05.ttf");
+}
+
+@font-face {
+    font-family: 'Avenir HeavyOblique';
+    src: url("../public/assets/fonts/avenir_ff/Avenir-HeavyOblique-06.ttf");
+}
+
+@font-face {
+    font-family: 'Avenir Light';
+    src: url("../public/assets/fonts/avenir_ff/Avenir-Light-07.ttf");
+}
+
+@font-face {
+    font-family: 'Avenir LightOblique';
+    src: url("../public/assets/fonts/avenir_ff/Avenir-LightOblique-08.ttf");
+}
+
+@font-face {
+    font-family: 'Avenir Medium';
+    src: url("../public/assets/fonts/avenir_ff/Avenir-Medium-09.ttf");
+}
+
+@font-face {
+    font-family: 'Avenir MediumOblique';
+    src: url("../public/assets/fonts/avenir_ff/Avenir-MediumOblique-10.ttf");
+}
+
+@font-face {
+    font-family: 'Avenir Oblique';
+    src: url("../public/assets/fonts/avenir_ff/Avenir-Oblique-11.ttf");
+}
+
+@font-face {
+    font-family: 'Avenir Roman';
+    src: url("../public/assets/fonts/avenir_ff/Avenir-Roman-12.ttf");
+}
+
+@font-face {
+    font-family: 'New York Small';
+    src: url("../public/assets/fonts/New-York-Font/NewYorkMediumRegular.otf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'New York Small';
+    src: url("../public/assets/fonts/New-York-Font/NewYorkMediumRegularItalic.otf");
+    font-weight: 400;
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+    font-family: 'Avenir Medium', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /*overflow-x: hidden;*/
+    /*position: ;*/
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.page-main-heading-section, .page-sub-heading-section {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-main-heading-section {
+    width: 60%;
+}
+
+.page-sub-heading-section {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.page-main-heading-section h2, .page-sub-heading-section h3 {
+    font: italic normal normal 30px/32px 'New York Small';
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+    margin: 0;
+}
+
+.nav-drawer-open {
+    transform: translateX(0) !important;
+}
+
+.search-mobile-open {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transform: translateY(0) !important;
+    opacity: 0.9 !important;
+}
+
+.carousel-indicators {
+    margin-right: 0;
+    margin-left: 0;
+    text-align: left;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.carousel-item img {
+    width: 100vw !important;
+}
+
+.carousel-inner {
+    height: 510px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-indicators li {
+    height: 6px !important;
+    /*width: 2.5rem !important;*/
+    border-radius: 10px !important;
+    margin: 0 5px !important;
+    background-color: #FFFFFF;
+    opacity: 1;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.carousel-indicators li.active {
+    background-color: #002040;
+}
+
+th, tr {
+    font-size: 14px;
+}
+
+.slick-list {
+    /*overflow: hidden;*/
+    max-height: 280px;
+}
+
+.slick-prev {
+    display: none;
+}
+
+.slick-next {
+    display: none;
+}
+
+.slick-slide.slick-active.slick-cloned,
+.slick-slide.slick-active.slick-cloned > div {
+    max-height: 250px !important;
+}
+
+.slick-dots {
+    bottom: -2.5rem;
+}
+
+@media screen and (max-width: 425px) {
+    .page-main-heading-section {
+        width: 90%;
+    }
+
+    .page-sub-heading-section {
+        width: 80%;
+    }
+
+    .page-main-heading-section h2, .page-sub-heading-section h3 {
+        text-align: center;
+    }
+
+    .carousel-indicators {
+        /*text-align: right;*/
+        /*justify-content: center;*/
+    }
+
+    .carousel-inner {
+        height: 350px;
+    }
+
+    .carousel-item {
+        background-color: black;
+        height: 350px;
+        overflow-x: hidden;
+    }
+
+    .carousel-item img {
+        height: 350px;
+        width: auto;
+    }
+
+    .slick-dots {
+        /*margin-right: auto;*/
+        margin-left: 2rem;
+        margin-bottom: -1rem;
+        text-align: left;
+    }
+
+    .carousel-indicators {
+        justify-content: center !important;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    body {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+}
+

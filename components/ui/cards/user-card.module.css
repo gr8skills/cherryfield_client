@@ -1,0 +1,37 @@
+.card-wrapper {
+    width: 350px;
+
+    padding: 0;
+    margin: 0 auto 1.9rem 0;
+}
+
+/*.card-wrapper img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    display: block;*/
+/*    margin-bottom: 10px;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+.card-wrapper .image {
+    width: 350px;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.card-wrapper > h4 {
+    font: normal normal bold 16px/20px "Avenir Black";
+    color: var(--base-gray);
+}
+
+.card-wrapper > p {
+    margin: 0;
+    font: normal normal bold 14px/16px "Avenir Black";
+}
+
+@media screen and (max-width: 500px) {
+    .card-wrapper {
+        margin: 0 auto 20px auto;
+    }
+}

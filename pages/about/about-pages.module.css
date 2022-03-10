@@ -1,0 +1,37 @@
+.intro-text {
+    text-align: left;
+    font: normal normal normal 18px/30px 'New York Small';
+    letter-spacing: 0px;
+    color: #191A1D;
+    opacity: 1;
+    margin-bottom: 1rem;
+}
+
+.regular-text {
+    text-align: left;
+    font: normal normal 500 15px/27px 'Avenir Medium';
+    letter-spacing: 0px;
+    color: #191A1D;
+    opacity: 1;
+}
+
+.collapsible-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 1.0rem 1.3rem;
+}
+
+.body-sub-heading {
+    font: normal italic normal 17px/20px 'New York Small';
+}
+
+ul.list li, ol.list li {
+    font: normal normal 500 15px/27px 'Avenir Medium';
+}
+

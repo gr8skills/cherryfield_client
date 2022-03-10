@@ -1,0 +1,9 @@
+.card-title {
+    font: normal normal 600 17px/20px 'Avenir Roman';
+    color: var(--base-text-gray);
+}
+
+.card-date {
+    font: normal normal normal 15px/20px 'Avenir Book';
+    margin: 10px 0 20px 0;
+}

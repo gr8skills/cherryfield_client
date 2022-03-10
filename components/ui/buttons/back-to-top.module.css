@@ -1,0 +1,30 @@
+.to-top {
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    bottom: 3.3rem;
+    right: 1.5rem;
+    color: #FFFFFF;
+    box-shadow: 0 5px 8px #191919;
+    /*border: none;*/
+    border: 1px solid #FFFFFF;
+    background-color: var(--base-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: box-showdow 300ms ease-in;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.to-top:hover {
+    box-shadow: 0 1px 5px #191919;
+    transform: translateY(1px);
+}
+
+.to-top span {
+    font-size: 10px;
+    text-transform: uppercase;
+}

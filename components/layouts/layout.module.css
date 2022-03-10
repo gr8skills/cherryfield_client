@@ -1,0 +1,86 @@
+.banner-section {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    /*     max-height: 400px; */
+}
+
+.banner-section div {
+    width: 100%;
+    height: 400px;
+}
+
+.banner-section > img {
+    width: 100%;
+}
+
+.sidenav-links {
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    padding: 20px 30px;
+    margin-bottom: 2rem;
+}
+
+.sidenav-links > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav-links > ul li {
+    border-bottom: 1px solid #999999;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.sidenav-links > ul li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.sidenav-links > ul li a {
+    color: #191919;
+    font: normal normal 500 15px/20px 'Avenir Medium';
+}
+
+.sidenav-links > ul li a:hover {
+    text-decoration: none;
+}
+
+a.active-link {
+    color: var(--base-color) !important;
+    padding-left: 10px;
+    border-left: 5px solid var(--base-color);
+}
+
+
+.darkened {
+    background-color: #DBDBDB24;
+}
+
+.parent-link-text {
+    text-align: left;
+    font: normal normal 900 14px/22px 'Avenir Black';
+    letter-spacing: 6px;
+    color: #0A545F;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.active-link-text {
+    text-align: left;
+    font: normal normal normal 30px/55px 'New York Small';
+    letter-spacing: 0px;
+    color: #191A1D;
+    opacity: 1;
+}
+
+.active-link-text + div {
+    width: 100px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: var(--base-color);
+    margin-bottom: 2rem;
+}

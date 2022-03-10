@@ -1,0 +1,33 @@
+.article-card {
+
+}
+
+div.thumbnail {
+    min-width: 250px !important;
+    min-height: 250px !important;
+    /*border: 2px solid red;*/
+    /*margin: 0;*/
+}
+
+.article-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-card-content p {
+    color: #191919;
+    font: normal normal normal 16px/22px 'Avenir Roman';
+}
+
+.footer {
+    font: normal normal normal 13px/20px 'Avenir MediumOblique';
+}
+
+@media screen and (max-width: 450px) {
+    div.thumbnail {
+        width: 320px;
+        height: 320px;
+        margin: 0;
+    }
+}
