@@ -193,7 +193,7 @@ export default function Home() {
             <div className={`d-sm-none d-md-block mr-auto`}>
               {news && news?.length > 0 && (
                   news.slice(0,3).map((single, index)=> (
-                    <ArticleCard horizontal={true}
+                    <ArticleCard horizontal={true} key={single?.id}
                                  image={`${serverUrl}/images/${single?.thumb}`}
                                  content={single?.excerpt}
                                  author={'School Admin'}
